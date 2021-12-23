@@ -1,1 +1,1 @@
-The completing of creating website (CouncilOfApes)
+This is the code for creating website (CouncilOfApes)
