@@ -33,31 +33,79 @@ Default: 1. 1.6, 1.05
   src: url(../fonts/MaisonNeue/MaisonNeue-Medium-500.otf);
   font-family: MaisonNeueMedium;
 }
+@font-face{
+  src: url(../fonts/MaisonNeue/MaisonNeue-Light-300.otf);
+  font-family: MaisonNeueLight;
+}
 /* body{
   font-family: "Rubik", sans-serif;
 } */
 
 /* ----------------------------------------------- */
 
+/* Main navigation section */
+
+/* ----------------------------------------------- */
+.header{
+  background-color: #000316;
+  padding: 1.6rem 0;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10.7rem;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.main-nav-link{
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: MaisonNeueLight;
+  color: #F0F1F1;
+  letter-spacing: 1px;
+}
+.nav-btn{
+  background-color: #282739;
+  padding: 1rem 1.6rem;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  font-family: MaisonNeueBook;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+/* ----------------------------------------------- */
+
 /* Hero Section */
 
 /* ----------------------------------------------- */
-.hero-section {
-  max-width: 144rem;
-}
-.hero {
-  background-image: url("../img/hero-img.png");
-  background-size: cover;
-  background-position: center;
-  display: grid;
-  grid-template-columns: 50fr 50fr;
+.container {
+  max-width: 95rem;
   margin: 0 auto;
-  /* max-width: 144rem; */
+}
+.hero{
+  background-image: url("../img/hero-img-2.png");
+  background-size: 825px 460px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #000316;
+  display: grid;
+  grid-template-columns: 41fr 59fr;
   align-items: center;
-  padding: 9.6rem 10.7rem 8.6rem 10.7rem;
+  /* padding-top:8.2rem;
+  padding-bottom: 8.6rem; */
+  padding: 8.2rem 0 8.9rem 10.7rem;
 }
 .primary-heading {
-  font-size: 3.6rem;
+  font-size: 3.8rem;
   letter-spacing: 1px;
   color: #fff;
   margin-bottom: 1rem;
@@ -67,8 +115,8 @@ Default: 1. 1.6, 1.05
 .hero-description {
   font-size: 1.2rem;
   color: #e3e3e3;
-  margin-bottom: 4rem;
-  font-family: MaisonNeueBook;
+  margin-bottom: 3.8rem;
+  font-family: MaisonNeueLight;
   letter-spacing: 1px;
 }
 .btn1,
