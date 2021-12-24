@@ -41,6 +41,14 @@ Default: 1. 1.6, 1.05
   src: url(../fonts/MaisonNeue/MaisonNeue-Demi-600.otf);
   font-family: MaisonNeue600;
 }
+@font-face {
+  src: url(../fonts/VisueltPro-Bold-700.ttf);
+  font-family: Visueltpro700;
+}
+@font-face {
+  src: url(../fonts/MaisonNeue/MaisonNeue-Bold-700.otf);
+  font-family: MaisonNeue700;
+}
 
 /* ----------------------------------------------- */
 
@@ -220,4 +228,66 @@ Default: 1. 1.6, 1.05
 .presale-time-days,
 .presale-time-minutes {
   background-color: #5627f4;
+}
+
+/* ----------------------------------------------- */
+
+/* About Section */
+
+/* ----------------------------------------------- */
+
+.about-section {
+  padding: 200px 0;
+}
+.about-first-heading {
+  font-family: Visueltpro700;
+  font-size: 57px;
+  color: #010316;
+  letter-spacing: 0.5px;
+  padding-bottom: 34px;
+}
+.first-text-first-line {
+  font-family: MaisonNeueBook;
+  color: #515050;
+  font-size: 21px;
+  padding-bottom: 46px;
+  letter-spacing: 0.5px;
+}
+.first-text-second-line {
+  font-family: MaisonNeueBook;
+  font-size: 21px;
+  color: #515050;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  padding-bottom: 90px;
+}
+.about-second-heading {
+  font-family: MaisonNeue700;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  color: #010316;
+  padding-bottom: 22px;
+}
+.second-text-first-line{
+  font-size: 18px;
+  font-family: MaisonNeueBook;
+  color: #515050;
+  letter-spacing: 0.5px;
+  padding-bottom: 36px;
+}
+.about-link{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.about-link-icon{
+  width: 20px;
+  height: 20px;
+}
+.about-link-first-line{
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #010316;
 }
