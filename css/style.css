@@ -94,7 +94,6 @@ Default: 1. 1.6, 1.05
   font-size: 1.1rem;
 }
 
-
 /* ----------------------------------------------- */
 
 /* Hero Section */
@@ -103,19 +102,20 @@ Default: 1. 1.6, 1.05
 .hero-bg {
   background-image: url("../img/hero-img-3.png");
   background-size: contain;
-  background-position: right;
+  background-position: 125% center;
   background-repeat: no-repeat;
 }
 .hero-section {
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
   position: relative;
 }
 .hero {
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 50% 50%;
   align-items: center;
 }
 .primary-heading {
+  margin-top: 100px;
   font-size: 3.8rem;
   letter-spacing: 1px;
   color: #fff;
@@ -157,12 +157,13 @@ Default: 1. 1.6, 1.05
   color: #f0f1f1;
   font-family: MaisonNeueLight;
   font-size: 1rem;
-  margin-top: 84px;
+  margin-top: 100px;
   margin-bottom: 2.2rem;
 }
 .partners-logo {
   display: flex;
-  gap: 2rem;
+  gap: 62px;
+  margin-bottom: 10px;
 }
 
 /* ----------------------------------------------- */
@@ -197,7 +198,7 @@ Default: 1. 1.6, 1.05
 .presale-time-days,
 .presale-time-minutes,
 .presale-time-seconds {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 8.125rem;
   height: 168px;
   display: flex;
