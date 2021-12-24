@@ -237,7 +237,7 @@ Default: 1. 1.6, 1.05
 /* ----------------------------------------------- */
 
 .about-section {
-  padding: 200px 0;
+  padding: 180px 0;
 }
 .about-first-heading {
   font-family: Visueltpro700;
@@ -299,7 +299,7 @@ Default: 1. 1.6, 1.05
 /* ----------------------------------------------- */
 
 .nfts-section{
-  padding: 200px 0;
+  padding: 180px 0;
   background-color: #F3F3F3;
 }
 .nfts-species{
@@ -313,6 +313,7 @@ Default: 1. 1.6, 1.05
   color:#010316;
   letter-spacing: 0.5px;
   margin-bottom: 23px;
+  line-height: 60px;
 }
 .nfts-text-para{
   font-family: MaisonNeueBook;
@@ -347,6 +348,66 @@ td{
   letter-spacing: 2px;
 }
 .nfts-img{
+height: 460px;
+width: 510px;
+}
+
+/* ----------------------------------------------- */
+
+/* Survival game Section */
+
+/* ----------------------------------------------- */
+
+.survival-section{
+  padding: 180px 0;
+  background-color: #F3F3F3;
+}
+.survival-game{
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 147px;
+}
+.survival-text-heading{
+  font-family: Visueltpro700;
+  font-size: 58px;
+  color:#010316;
+  letter-spacing: 0.5px;
+  margin-bottom: 23px;
+  line-height: 60px;
+}
+.survival-text-para{
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 38px;
+  color: #0D0D0D;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+.table{
+  border: 1px solid #151515;
+  width: 510px;
+  height: 93px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td{
+  border: 1px solid #151515;
+  padding-left: 27px;
+  color: #010316;
+}
+.table-heading{
+  font-family: MaisonNeue600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.table-text{
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.survival-img{
 height: 460px;
 width: 510px;
 }
