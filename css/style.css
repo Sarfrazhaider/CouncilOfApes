@@ -298,58 +298,59 @@ Default: 1. 1.6, 1.05
 
 /* ----------------------------------------------- */
 
-.nfts-section{
+.nfts-section {
   padding: 180px 0;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
-.nfts-species{
+.nfts-species {
   display: grid;
   grid-template-columns: 55fr 45fr;
   gap: 147px;
 }
-.nfts-text-heading{
+.nfts-text-heading {
   font-family: Visueltpro700;
   font-size: 58px;
-  color:#010316;
+  color: #010316;
   letter-spacing: 0.5px;
   margin-bottom: 23px;
   line-height: 60px;
 }
-.nfts-text-para{
+.nfts-text-para {
   font-family: MaisonNeueBook;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 38px;
-  color: #0D0D0D;
+  color: #0d0d0d;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
-.table{
+.table {
   border: 1px solid #151515;
   width: 510px;
   height: 93px;
   border-collapse: collapse;
   margin: 0 auto;
 }
-td{
+.table-heading,
+.table-text {
   border: 1px solid #151515;
   padding-left: 27px;
   color: #010316;
 }
-.table-heading{
+.table-heading {
   font-family: MaisonNeue600;
   font-size: 16px;
   letter-spacing: 1px;
 }
-.table-text{
+.table-text {
   font-family: MaisonNeueBook;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 2px;
 }
-.nfts-img{
-height: 460px;
-width: 510px;
+.nfts-img {
+  height: 460px;
+  width: 510px;
 }
 
 /* ----------------------------------------------- */
@@ -358,56 +359,190 @@ width: 510px;
 
 /* ----------------------------------------------- */
 
-.survival-section{
+.survival-section {
   padding: 180px 0;
-  background-color: #F3F3F3;
+  background-color: #ffffff;
 }
-.survival-game{
+.survival-game {
   display: grid;
   grid-template-columns: 55fr 45fr;
   gap: 147px;
 }
-.survival-text-heading{
+.survival-text-heading {
   font-family: Visueltpro700;
   font-size: 58px;
-  color:#010316;
+  color: #010316;
   letter-spacing: 0.5px;
   margin-bottom: 23px;
   line-height: 60px;
 }
-.survival-text-para{
+.survival-text-para {
   font-family: MaisonNeueBook;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 38px;
-  color: #0D0D0D;
+  color: #0d0d0d;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
-.table{
+.table1 {
   border: 1px solid #151515;
   width: 510px;
   height: 93px;
   border-collapse: collapse;
   margin: 0 auto;
 }
-td{
+.table-heading,
+.table-text {
   border: 1px solid #151515;
   padding-left: 27px;
   color: #010316;
 }
-.table-heading{
+.table-heading {
   font-family: MaisonNeue600;
   font-size: 16px;
   letter-spacing: 1px;
 }
-.table-text{
+.table-text {
   font-family: MaisonNeueBook;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 2px;
 }
-.survival-img{
-height: 460px;
-width: 510px;
+.survival-img {
+  height: 460px;
+  width: 510px;
+}
+
+/* ----------------------------------------------- */
+
+/* Token Section */
+
+/* ----------------------------------------------- */
+
+.token-section {
+  padding: 180px 0;
+  background-color: #010316;
+}
+.token-text-heading {
+  font-family: Visueltpro700;
+  font-size: 58px;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.warning {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 46px;
+}
+.warning-text,
+.token-text-para,
+.token-box-text {
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+}
+.warning-text {
+  font-size: 18px;
+  color: #ffffce;
+  letter-spacing: 1px;
+}
+.token-text-para {
+  font-size: 22px;
+  color: #d2d3d7;
+  letter-spacing: 0.8px;
+  margin-bottom: 60px;
+}
+
+/* Token Box Section */
+
+.token-box-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+.token-box {
+  border: 1px solid #fff;
+  width: 390px;
+  height: 200px;
+  text-align: center;
+}
+.token-box-heading {
+  font-family: Visueltpro700;
+  font-size: 58px;
+  color: #fff;
+}
+.token-box-text {
+  font-size: 18px;
+  color: #d2d3d7;
+  letter-spacing: 0.5px;
+}
+
+/* Token Table Section */
+
+.table2 {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+
+  width: 100%;
+  height: 647px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed;
+  margin-bottom: 239px;
+}
+td {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-left: 35px;
+}
+
+.table2-heading {
+  font-family: MaisonNeue700;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.table2-text {
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1.7px;
+  background-color: #5627f4;
+}
+
+/* Token launchpad Section */
+
+.token-launchpad {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  gap: 4px;
+}
+
+.launchpad-heading {
+  font-family: Visueltpro700;
+  font-size: 58px;
+  color: #fff;
+  margin-bottom: 34px;
+}
+.launchpad-para1,
+.launchpad-para2 {
+  margin-bottom: 46px;
+}
+.launchpad-para1,
+.launchpad-para2,
+.launchpad-para3 {
+  font-family: MaisonNeueBook;
+  font-weight: 400;
+  font-size: 22px;
+  color: #d2d3d7;
+}
+.launchpad-img {
+  width: 550px;
+  height: 420px;
 }
