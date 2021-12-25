@@ -464,6 +464,11 @@ Default: 1. 1.6, 1.05
   margin-bottom: 16px;
 }
 .token-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
   border: 1px solid #fff;
   width: 390px;
   height: 200px;
@@ -485,7 +490,6 @@ Default: 1. 1.6, 1.05
 .table2 {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
 
   width: 100%;
   height: 647px;
@@ -497,7 +501,6 @@ Default: 1. 1.6, 1.05
 td {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
   padding-left: 35px;
 }
 
