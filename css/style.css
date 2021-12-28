@@ -54,6 +54,10 @@ Default: 1. 1.6, 1.05
   font-family: Visueltpro600;
   font-weight: 600;
 }
+@font-face {
+  src: url(../fonts/VisueltPro-Medium-500.ttf);
+  font-family: Visueltpro500;
+}
 
 /* ----------------------------------------------- */
 
@@ -770,9 +774,9 @@ td {
 
 /* ----------------------------------------------- */
 
-.joinnow-section  {
+.joinnow-section {
   height: 362px;
-  width: 1168px;
+  width: 1200px;
   background-color: #010316;
   margin-top: -181px;
   margin-bottom: 50px;
@@ -781,22 +785,27 @@ td {
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
-.joinnow-heading{
+.joinnow-heading {
   font-family: Visueltpro700;
   font-size: 58px;
   color: #fff;
   padding-bottom: 30px;
 }
-.btns{
+.btns {
   display: flex;
   gap: 10px;
 }
-.joinnow-btn1, .joinnow-btn2{
+.joinnow-btn1 {
+  background-color: #ffffce;
+}
+.joinnow-btn2 {
+  background-color: #fff;
+}
+.joinnow-btn1,
+.joinnow-btn2 {
   width: 172px;
   height: 42px;
-  background-color: #FFFFCE;
   border-radius: 4px;
   text-align: center;
   display: flex;
@@ -807,7 +816,48 @@ td {
 .btn-link {
   text-decoration: none;
   font-family: MaisonNeueMedium;
-  color: #0D123F;
+  color: #0d123f;
   font-size: 18px;
-  
+}
+
+/* ----------------------------------------------- */
+
+/* Footer Section */
+
+/* ----------------------------------------------- */
+
+.footer {
+  padding: 50px 0 100px 0;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 56% 14.6% 14.6% 14.6%;
+}
+.footer-heading {
+  font-family: Visueltpro500;
+  font-size: 24px;
+  color: #010316;
+  margin-bottom: 32px;
+}
+.footer-text {
+  color: #0d0d0d;
+  font-size: 15px;
+  font-family: MaisonNeueLight;
+  letter-spacing: 0.8px;
+}
+.footer-link {
+  text-decoration: none;
+}
+.tokenomics,
+.audit,
+.twitter {
+  margin-bottom: 32px;
+}
+.copyright {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 13px;
+  font-family: MaisonNeueLight;
+  letter-spacing: 0.8px;
+  color: #0d0d0d;
 }
