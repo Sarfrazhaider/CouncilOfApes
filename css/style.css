@@ -764,3 +764,50 @@ td {
   top: 114px;
   left: 176px;
 }
+/* ----------------------------------------------- */
+
+/* Join now Section */
+
+/* ----------------------------------------------- */
+
+.joinnow-section  {
+  height: 362px;
+  width: 1168px;
+  background-color: #010316;
+  margin-top: -181px;
+  margin-bottom: 50px;
+  border-top: 4px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.joinnow-heading{
+  font-family: Visueltpro700;
+  font-size: 58px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.btns{
+  display: flex;
+  gap: 10px;
+}
+.joinnow-btn1, .joinnow-btn2{
+  width: 172px;
+  height: 42px;
+  background-color: #FFFFCE;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-link {
+  text-decoration: none;
+  font-family: MaisonNeueMedium;
+  color: #0D123F;
+  font-size: 18px;
+  
+}
