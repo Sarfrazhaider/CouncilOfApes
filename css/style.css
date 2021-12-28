@@ -49,6 +49,11 @@ Default: 1. 1.6, 1.05
   src: url(../fonts/MaisonNeue/MaisonNeue-Bold-700.otf);
   font-family: MaisonNeue700;
 }
+@font-face {
+  src: url(../fonts/VisueltPro-Medium-500.ttf);
+  font-family: Visueltpro600;
+  font-weight: 600;
+}
 
 /* ----------------------------------------------- */
 
@@ -59,7 +64,7 @@ Default: 1. 1.6, 1.05
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 16px;
 }
 
 /* ----------------------------------------------- */
@@ -361,7 +366,6 @@ Default: 1. 1.6, 1.05
 
 .survival-section {
   padding: 180px 0;
-  background-color: #ffffff;
 }
 .survival-game {
   display: grid;
@@ -655,4 +659,108 @@ td {
 .hodl {
   width: 173px;
   height: 63px;
+}
+
+/* ----------------------------------------------- */
+
+/* Roadmap Section */
+
+/* ----------------------------------------------- */
+
+.roadmap-section {
+  padding: 180px 0 385px 0;
+  background-color: #5627f4;
+}
+
+.roadmap-heading {
+  font-family: Visueltpro700;
+  font-size: 58px;
+  letter-spacing: 0.5px;
+  margin-bottom: 34px;
+  color: #fff;
+}
+.roadmap-text {
+  font-size: 21px;
+  font-family: MaisonNeueLight;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 68px;
+}
+
+/* grid 1 */
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid1-text1,
+.grid1-text2,
+.grid1-text3,
+.grid2-text1,
+.grid2-text2,
+.grid2-text3,
+.grid3-text1,
+.grid3-text2,
+.grid3-text3,
+.grid4-text1,
+.grid4-text2,
+.grid4-text3,
+.grid5-text1,
+.grid5-text2,
+.grid5-text3 {
+  height: 118px;
+  color: #fff;
+  font-family: Visueltpro600;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.grid5-text3 {
+  font-family: MaisonNeue700;
+}
+
+.grid1-text1,
+.grid2-text2,
+.grid3-text1 {
+  background-color: #151515;
+}
+.grid1-text2,
+.grid1-text3,
+.grid2-text1,
+.grid2-text3,
+.grid1-text3,
+.grid3-text2,
+.grid3-text3,
+.grid4-text2,
+.grid4-text3,
+.grid4-text1,
+.grid5-text1,
+.grid5-text2 {
+  background: linear-gradient(256.19deg, rgba(66, 31, 184, 0) 0%, #421fb8 100%);
+}
+.grid5-text3 {
+  background-color: #fff;
+  color: #151515;
+  text-align: center;
+}
+.roadmap-grid1,
+.roadmap-grid2,
+.roadmap-grid3 {
+  position: relative;
+  margin-bottom: 2px;
+}
+.roadmap-grid1-icon,
+.roadmap-grid3-icon {
+  position: absolute;
+  top: -5px;
+  left: 176px;
+}
+.roadmap-grid2-icon {
+  position: absolute;
+  top: 114px;
+  left: 176px;
 }
