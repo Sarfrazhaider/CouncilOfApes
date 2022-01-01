@@ -1,0 +1,251 @@
+/*
+1200px
+992px
+768px
+576px
+480px
+320px
+*/
+
+/* @media (max-width: 75em) {
+  .container {
+    max-width: 1100px;
+  }
+  .hero-bg {
+    background-position: 167% center;
+  }
+}
+@media (max-width: 68.2em) {
+  .primary-heading {
+    font-size: 54px;
+  }
+  .container {
+    max-width: 991px;
+  }
+  .hero-bg {
+    background-position: 368% center;
+  }
+}
+@media (max-width: 62em) {
+  .primary-heading {
+    font-size: 50px;
+  }
+}
+@media (max-width: 59em) {
+  .hero-bg {
+    background-image: url(../img/hero.png);
+    background-position: unset;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hero {
+    display: block;
+  }
+  .container {
+    
+    margin: 0 auto;
+  }
+
+  .hero-section-text {
+    max-width: 436px;
+    height: 337px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile-nav-btn{
+display: block;
+  }
+} */
+@media (max-width: 992px) {
+  .about-first-heading {
+    font-size: 46px;
+    letter-spacing: -1px;
+    padding-bottom: 30px;
+  }
+  .first-text-first-line span {
+    font-size: 18px;
+    padding-bottom: 36px;
+  }
+
+  .first-text-second-line {
+    font-size: 18px;
+    padding-bottom: 46px;
+    max-width: 700px;
+  }
+  .about-second-heading {
+    font-size: 24px;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+  }
+  .second-text-first-line {
+    font-size: 16px;
+    padding-bottom: 23px;
+  }
+  .about-link-first-line {
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 450;
+  }
+  .about {
+    padding: 0 50px;
+  }
+  .about-section {
+    padding: 174px 0 94px 0;
+  }
+  /* ----------------------------------------------- */
+
+  /* NFTs section  */
+
+  /* ----------------------------------------------- */
+
+  .nfts-section,
+  .survival-section,
+  .token-section,
+  .meme-lunchpad,
+  .roadmap-section,
+  .footer {
+    padding: 90px 50px;
+  }
+  .nfts-species,
+  .survival-game {
+    display: block;
+  }
+  .nfts-text-heading,
+  .survival-text-heading {
+    font-size: 46px;
+    letter-spacing: -1px;
+    max-width: 540px;
+    margin-bottom: 28px;
+  }
+  .nfts-text-para,
+  .survival-text-para {
+    max-width: 675px;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .table,
+  .table1 {
+    margin: 0 0 40px 0;
+  }
+  .table-heading,
+  .table1-heading {
+    padding-right: 50px;
+  }
+  .table-text {
+    padding-right: 76px;
+  }
+  .table1-text {
+    padding-right: 151px;
+  }
+  .token-text-heading {
+    font-size: 46px;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+  }
+  .warning-text,
+  .token-text-para {
+    font-size: 16px;
+  }
+  .token-box {
+    width: 277px;
+    height: 127px;
+  }
+  .table2 {
+    width: 860px;
+    margin-bottom: 120px;
+  }
+  .token-box-heading {
+    font-size: 46px;
+  }
+  .token-box-text {
+    font-size: 16px;
+  }
+  .token-launchpad {
+    display: block;
+  }
+  .launchpad-heading {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .launchpad-para1,
+  .launchpad-para2,
+  .launchpad-para3 {
+    font-size: 18px;
+    margin-bottom: 36px;
+    letter-spacing: 0.8px;
+    line-height: 32px;
+  }
+  .meme-box {
+    display: none;
+  }
+  .meme-team-box-grid {
+    display: block;
+  }
+  .meme-grid-button,
+  .launchpad-img-box {
+    display: none;
+  }
+  .meme-team-box-heading,
+  .roadmap-heading {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .meme-team-box-para1,
+  .meme-team-box-para2 {
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+  .meme-team-box-para3 {
+    font-size: 18px;
+    margin-bottom: 29px;
+  }
+  .meme-team-box-arrow-para {
+    font-size: 18px;
+  }
+  .roadmap-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 32px;
+  }
+  .roadmap-section {
+    padding-bottom: 170px;
+  }
+  .roadmap-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  /* .roadmap-grid-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .roadmap-grid1-icon,
+  .roadmap-grid2-icon,
+  .roadmap-grid3-icon {
+    left: 157px;
+  } */
+  .joinnow-section {
+    width: 858px;
+    margin-top: -70px;
+  }
+  .joinnow-heading {
+    font-size: 46px;
+  }
+  .joinnow-btn1,
+  .joinnow-btn2 {
+    width: 172px;
+    height: 48px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer-logo {
+    grid-row: 1;
+    grid-column: span 3;
+    margin-bottom: 52px;
+  }
+  .copyright {
+    text-align: left;
+    font-size: 18px;
+  }
+}

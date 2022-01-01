@@ -166,6 +166,27 @@ Default: 1. 1.6, 1.05
 
 /* ----------------------------------------------- */
 
+/* Mobile nav */
+
+/* ----------------------------------------------- */
+
+.mobile-nav-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.nav-btn-icon {
+  height: 48px;
+  width: 48px;
+  color: white;
+}
+.mobile-nav-btn [name="close-outline"] {
+  display: none;
+}
+
+/* ----------------------------------------------- */
+
 /* Partners Section */
 
 /* ----------------------------------------------- */
@@ -216,7 +237,7 @@ Default: 1. 1.6, 1.05
 .presale-time-minutes,
 .presale-time-seconds {
   color: #ffffff;
-  width: 8.126rem;
+  max-width: 8.126rem;
   height: 168px;
   display: flex;
   align-items: center;
@@ -262,6 +283,7 @@ Default: 1. 1.6, 1.05
   padding-bottom: 46px;
   letter-spacing: 0.5px;
 }
+
 .first-text-second-line {
   font-family: MaisonNeueBook;
   font-size: 21px;
@@ -290,7 +312,7 @@ Default: 1. 1.6, 1.05
   gap: 9px;
 }
 .about-link-icon {
-  width: 20px;
+  max-width: 20px;
   height: 20px;
 }
 .about-link-first-line {
@@ -335,7 +357,7 @@ Default: 1. 1.6, 1.05
 }
 .table {
   border: 1px solid #151515;
-  width: 510px;
+  max-width: 510px;
   height: 93px;
   border-collapse: collapse;
   margin: 0 auto;
@@ -359,7 +381,7 @@ Default: 1. 1.6, 1.05
 }
 .nfts-img {
   height: 460px;
-  width: 510px;
+  max-width: 510px;
 }
 
 /* ----------------------------------------------- */
@@ -395,23 +417,23 @@ Default: 1. 1.6, 1.05
 }
 .table1 {
   border: 1px solid #151515;
-  width: 510px;
+  max-width: 510px;
   height: 93px;
   border-collapse: collapse;
   margin: 0 auto;
 }
-.table-heading,
-.table-text {
+.table1-heading,
+.table1-text {
   border: 1px solid #151515;
   padding-left: 27px;
   color: #010316;
 }
-.table-heading {
+.table1-heading {
   font-family: MaisonNeue600;
   font-size: 16px;
   letter-spacing: 1px;
 }
-.table-text {
+.table1-text {
   font-family: MaisonNeueBook;
   font-weight: 400;
   font-size: 16px;
@@ -419,7 +441,7 @@ Default: 1. 1.6, 1.05
 }
 .survival-img {
   height: 460px;
-  width: 510px;
+  max-width: 510px;
 }
 
 /* ----------------------------------------------- */
@@ -478,7 +500,7 @@ Default: 1. 1.6, 1.05
   flex-direction: column;
 
   border: 1px solid #fff;
-  width: 390px;
+  max-width: 390px;
   height: 200px;
 }
 .token-box-heading {
@@ -498,7 +520,7 @@ Default: 1. 1.6, 1.05
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 
-  width: 100%;
+  max-width: 100%;
   height: 647px;
   border-collapse: collapse;
   margin: 0 auto;
@@ -553,7 +575,7 @@ td {
   color: #d2d3d7;
 }
 .launchpad-img {
-  width: 550px;
+  max-width: 550px;
   height: 420px;
 }
 
@@ -582,7 +604,6 @@ td {
 .meme-team-box-para2,
 .meme-team-box-para3 {
   font-family: MaisonNeueBook;
-  font-weight: 400;
   font-size: 21px;
   color: #515050;
   letter-spacing: 0.5px;
@@ -627,7 +648,7 @@ td {
   gap: 9px;
 }
 .meme-team-box-arrow {
-  width: 20px;
+  max-width: 20px;
   height: 20px;
 }
 .meme-team-box-arrow {
@@ -642,7 +663,7 @@ td {
 
 .team-btn1 {
   height: 114px;
-  width: 350px;
+  max-width: 350px;
   margin-bottom: 10px;
   background-color: #131313;
 }
@@ -652,16 +673,16 @@ td {
   justify-content: center;
 }
 .techrate {
-  width: 178px;
+  max-width: 178px;
   height: 55px;
 }
 .team-btn2 {
   background-color: #2b62f6;
   height: 114px;
-  width: 350px;
+  max-width: 350px;
 }
 .hodl {
-  width: 173px;
+  max-width: 173px;
   height: 63px;
 }
 
@@ -696,23 +717,13 @@ td {
 .roadmap-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2px;
 }
-
-.grid1-text1,
-.grid1-text2,
-.grid1-text3,
-.grid2-text1,
-.grid2-text2,
-.grid2-text3,
-.grid3-text1,
-.grid3-text2,
-.grid3-text3,
-.grid4-text1,
-.grid4-text2,
-.grid4-text3,
-.grid5-text1,
-.grid5-text2,
-.grid5-text3 {
+.incomplete-grid {
+  background-color: #151515;
+  position: relative;
+}
+.roadmap-grid p {
   height: 118px;
   color: #fff;
   font-family: Visueltpro600;
@@ -722,61 +733,39 @@ td {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 0 28px;
+  line-height: 27px;
 }
-.grid5-text3 {
+
+.complete-grid {
+  background: linear-gradient(256.19deg, rgba(66, 31, 184, 0) 0%, #421fb8 100%);
+}
+.grid-img {
+  position: absolute;
+  top: -5px;
+  right: -14px;
+}
+
+.roadmap-grid :last-child {
+  background-color: #fff;
+  color: #151515;
   font-family: MaisonNeue700;
 }
 
-.grid1-text1,
-.grid2-text2,
-.grid3-text1 {
-  background-color: #151515;
-}
-.grid1-text2,
-.grid1-text3,
-.grid2-text1,
-.grid2-text3,
-.grid1-text3,
-.grid3-text2,
-.grid3-text3,
-.grid4-text2,
-.grid4-text3,
-.grid4-text1,
-.grid5-text1,
-.grid5-text2 {
-  background: linear-gradient(256.19deg, rgba(66, 31, 184, 0) 0%, #421fb8 100%);
-}
-.grid5-text3 {
-  background-color: #fff;
-  color: #151515;
-  text-align: center;
-}
-.roadmap-grid1,
-.roadmap-grid2,
-.roadmap-grid3 {
-  position: relative;
-  margin-bottom: 2px;
-}
-.roadmap-grid1-icon,
-.roadmap-grid3-icon {
-  position: absolute;
-  top: -5px;
-  left: 176px;
-}
-.roadmap-grid2-icon {
-  position: absolute;
-  top: 114px;
-  left: 176px;
-}
 /* ----------------------------------------------- */
 
 /* Join now Section */
 
 /* ----------------------------------------------- */
 
+/* .joinnow-container {
+  max-width: 1200px;
+} */
 .joinnow-section {
   height: 362px;
-  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
   background-color: #010316;
   margin-top: -181px;
   margin-bottom: 50px;
@@ -804,7 +793,7 @@ td {
 }
 .joinnow-btn1,
 .joinnow-btn2 {
-  width: 172px;
+  max-width: 172px;
   height: 42px;
   border-radius: 4px;
   text-align: center;
@@ -860,4 +849,19 @@ td {
   font-family: MaisonNeueLight;
   letter-spacing: 0.8px;
   color: #0d0d0d;
+}
+
+.presale
+/* .about-section, */
+/* .nfts-section, */
+/* .survival-section, */
+/* .token-section, */
+/* .token-box-section, */
+/* .token-table, */
+/* .token-launchpad, */
+/* .meme-lunchpad, */
+/* .roadmap-section, */
+/* .joinnow-section, */
+/* .footer  */ {
+  display: none;
 }
