@@ -58,6 +58,90 @@ display: block;
   }
 } */
 @media (max-width: 992px) {
+
+  .nav-list, .main-nav-btn{
+    display: none;
+  }
+ 
+  /* ----------------------------------------------- */
+
+  /* Hero section  */
+
+  /* ----------------------------------------------- */
+
+  .hero {
+    padding: 0 160px;
+    display: block;
+    text-align: center;
+    padding-bottom: 228px;
+  }
+  .header,
+  .partners-heading,
+  .partners-logo {
+    padding: 0 50px;
+  }
+  .header{
+    padding: 25.6px 15px;
+  }
+  .hero-bg {
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-position: center -80px;
+  }
+  .btn2 {
+    background-color: transparent;
+  }
+  .primary-heading {
+    font-size: 66px;
+    line-height: 75px;
+  }
+  .hero-description {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 1.6px;
+  }
+  .hero-section {
+    padding-bottom: 150px;
+  }
+  .partners-text {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .logo {
+    height: 38px;
+  }
+
+  /* Presale */
+
+  .presale {
+    bottom: -70px;
+    right: 220px;
+  }
+  .p-time .number {
+    font-size: 46px;
+  }
+  .p-time .time {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  .presale-heading-text {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+  }
+  .presale-time-hours,
+  .presale-time-days,
+  .presale-time-minutes,
+  .presale-time-seconds {
+    height: 140px;
+    padding-top: 25px;
+  }
+
+  /* ----------------------------------------------- */
+
+  /* About section  */
+
+  /* ----------------------------------------------- */
+
   .about-first-heading {
     font-size: 46px;
     letter-spacing: -1px;
@@ -195,6 +279,7 @@ display: block;
   .meme-team-box-para2 {
     font-size: 18px;
     margin-bottom: 36px;
+    line-height: 35px;
   }
   .meme-team-box-para3 {
     font-size: 18px;
@@ -214,16 +299,10 @@ display: block;
   .roadmap-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  /* .roadmap-grid-icon {
-    position: absolute;
-    top: 5px;
-    right: 5px;
+  .roadmap-grid p {
+    padding: 0 18px;
   }
-  .roadmap-grid1-icon,
-  .roadmap-grid2-icon,
-  .roadmap-grid3-icon {
-    left: 157px;
-  } */
+
   .joinnow-section {
     width: 858px;
     margin-top: -70px;

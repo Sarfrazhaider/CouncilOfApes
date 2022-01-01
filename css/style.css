@@ -100,7 +100,7 @@ Default: 1. 1.6, 1.05
   color: #f0f1f1;
   letter-spacing: 1px;
 }
-.nav-btn {
+/* .nav-btn {
   background-color: #282739;
   padding: 1rem 1.6rem;
   color: #ffffff;
@@ -109,7 +109,7 @@ Default: 1. 1.6, 1.05
   font-family: MaisonNeueBook;
   letter-spacing: 1px;
   font-size: 1.1rem;
-}
+} */
 
 /* ----------------------------------------------- */
 
@@ -181,9 +181,6 @@ Default: 1. 1.6, 1.05
   width: 48px;
   color: white;
 }
-.mobile-nav-btn [name="close-outline"] {
-  display: none;
-}
 
 /* ----------------------------------------------- */
 
@@ -200,6 +197,7 @@ Default: 1. 1.6, 1.05
 }
 .partners-logo {
   display: flex;
+  flex-wrap: wrap;
   gap: 62px;
   margin-bottom: 10px;
 }
@@ -237,7 +235,7 @@ Default: 1. 1.6, 1.05
 .presale-time-minutes,
 .presale-time-seconds {
   color: #ffffff;
-  max-width: 8.126rem;
+  width: 8.126rem;
   height: 168px;
   display: flex;
   align-items: center;
@@ -733,7 +731,7 @@ td {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 28px;
+  padding: 0 11px;
   line-height: 27px;
 }
 
@@ -746,7 +744,7 @@ td {
   right: -14px;
 }
 
-.roadmap-grid :last-child {
+.roadmap-grid :nth-child(15) {
   background-color: #fff;
   color: #151515;
   font-family: MaisonNeue700;
@@ -851,17 +849,17 @@ td {
   color: #0d0d0d;
 }
 
-.presale
-/* .about-section, */
-/* .nfts-section, */
-/* .survival-section, */
-/* .token-section, */
-/* .token-box-section, */
-/* .token-table, */
-/* .token-launchpad, */
-/* .meme-lunchpad, */
-/* .roadmap-section, */
-/* .joinnow-section, */
-/* .footer  */ {
+/* .presale
+.about-section,
+.nfts-section,
+.survival-section,
+.token-section,
+.token-box-section,
+.token-table,
+.token-launchpad,
+.meme-lunchpad,
+.roadmap-section,
+.joinnow-section,
+.footer  {
   display: none;
-}
+} */
