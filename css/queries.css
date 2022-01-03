@@ -382,7 +382,14 @@
     padding: 90px 30px 130px 30px;
   }
 }
-
+@media (max-width: 616px) {
+  .container {
+    max-width: 616px;
+  }
+  .roadmap-grid{
+grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /* ----------------------------------------------- */
 
 /* For mobile  */
@@ -430,7 +437,7 @@
     height: 18px;
   }
   .presale {
-    width: 576px;
+    width: 100%;
   }
   .mobile-partners {
     display: block;
@@ -462,6 +469,7 @@
   }
   .launchpad-img-box {
     display: block;
+    margin-top: -45px;
   }
 
   .meme-grid-button {
@@ -532,7 +540,7 @@
     height: 26px;
   }
   .presale {
-    width: 480px;
+    width: 100vw;
   }
   .table-heading,
   .table1-heading {
