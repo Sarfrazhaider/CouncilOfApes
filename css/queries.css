@@ -445,9 +445,6 @@
   .first-text-second-line {
     line-height: 35px;
   }
-  .nfts-img {
-    height: 450px;
-  }
   .token-box-section {
     display: block;
     width: 100%;
@@ -458,16 +455,17 @@
     margin-bottom: 10px;
   }
 
+  .token-box-heading,
+  .token-box-text {
+    width: 50%;
+  }
   .token-box-heading {
-    padding-left: 30px;
+    text-align: center;
   }
   .launchpad-img-box {
     display: block;
   }
-  .launchpad-img {
-    width: 462px;
-    height: 355px;
-  }
+
   .meme-grid-button {
     display: block;
   }
@@ -538,17 +536,11 @@
   .presale {
     width: 480px;
   }
-  .nfts-img {
-    height: 385px;
-    width: 403px;
-  }
   .table-heading,
   .table1-heading {
     padding-right: 41px;
   }
-  .survival-img {
-    height: 405px;
-  }
+
   .token-section {
     padding: 90px 20px 0 20px;
   }

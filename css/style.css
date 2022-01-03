@@ -223,6 +223,8 @@ Default: 1. 1.6, 1.05
   position: absolute;
   bottom: -7rem;
   right: 0;
+  width: 100%;
+  max-width: 520px;
 }
 
 .presale-heading-text {
@@ -247,7 +249,7 @@ Default: 1. 1.6, 1.05
 .presale-time-minutes,
 .presale-time-seconds {
   color: #ffffff;
-  width: 8.126rem;
+  width: 25%;
   height: 168px;
   display: flex;
   align-items: center;
@@ -390,7 +392,8 @@ Default: 1. 1.6, 1.05
   letter-spacing: 2px;
 }
 .nfts-img {
-  height: 460px;
+  height: auto;
+  width: 100%;
   max-width: 510px;
 }
 
@@ -450,7 +453,8 @@ Default: 1. 1.6, 1.05
   letter-spacing: 2px;
 }
 .survival-img {
-  height: 460px;
+  width: 100%;
+  /* height: 460px; */
   max-width: 510px;
 }
 
@@ -586,7 +590,8 @@ td {
 }
 .launchpad-img {
   max-width: 550px;
-  height: 420px;
+  height: auto;
+  width: 100%;
 }
 
 /* ----------------------------------------------- */
@@ -679,9 +684,9 @@ td {
   background-color: #131313;
 }
 .techrate {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 50%);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 .hodl {
   left: 50%;
@@ -781,6 +786,7 @@ td {
 .joinnow-section {
   height: 362px;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 16px;
   background-color: #010316;
