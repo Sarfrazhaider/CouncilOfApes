@@ -209,7 +209,9 @@ Default: 1. 1.6, 1.05
   display: flex;
   flex-wrap: wrap;
   gap: 62px;
-  margin-bottom: 10px;
+}
+.mobile-partners {
+  display: none;
 }
 
 /* ----------------------------------------------- */
@@ -670,27 +672,34 @@ td {
 /* Meme team buttons */
 
 .team-btn1 {
+  position: relative;
   height: 114px;
-  max-width: 350px;
+  width: 350px;
   margin-bottom: 10px;
   background-color: #131313;
 }
-.team-btn-techrate,
-.team-btn-hodl {
-  display: flex;
-  justify-content: center;
+.techrate {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.hodl {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 18px);
 }
 .techrate {
-  max-width: 178px;
+  width: 178px;
   height: 55px;
 }
 .team-btn2 {
+  position: relative;
   background-color: #2b62f6;
   height: 114px;
-  max-width: 350px;
+  width: 350px;
 }
 .hodl {
-  max-width: 173px;
+  width: 173px;
   height: 63px;
 }
 
@@ -801,7 +810,7 @@ td {
 }
 .joinnow-btn1,
 .joinnow-btn2 {
-  max-width: 172px;
+  width: 172px;
   height: 42px;
   border-radius: 4px;
   text-align: center;
