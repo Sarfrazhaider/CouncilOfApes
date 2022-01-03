@@ -223,7 +223,8 @@
     padding-right: 76px;
   }
   .table1-text {
-    padding-right: 151px;
+    width: 100%;
+    max-width: 490px;
   }
   .token-text-heading {
     font-size: 46px;
@@ -434,7 +435,7 @@ grid-template-columns: 1fr 1fr 1fr;
     height: 38px;
   }
   .logo-last {
-    height: 18px;
+    height: 16px;
   }
   .presale {
     width: 100%;
@@ -535,9 +536,14 @@ grid-template-columns: 1fr 1fr 1fr;
   }
   .hero {
     width: 100%;
+    max-width: 1200px;
   }
   .logo {
     height: 26px;
+  }
+  .btn1, .btn2{
+    padding: 1rem 1.4rem;
+    font-size: 16px;
   }
   .presale {
     width: 100vw;
@@ -570,4 +576,12 @@ grid-template-columns: 1fr 1fr 1fr;
   .about {
     width: 320px;
   }
+  .logo-last {
+    height: 13px;
+}
+.btn1, .btn2{
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
 }
