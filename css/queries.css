@@ -223,8 +223,8 @@
     padding-right: 76px;
   }
   .table1-text {
-      width: 100%;
-      max-width: 490px;
+    width: 100%;
+    max-width: 490px;
   }
   .token-text-heading {
     font-size: 46px;
@@ -387,8 +387,8 @@
   .container {
     max-width: 616px;
   }
-  .roadmap-grid{
-grid-template-columns: 1fr 1fr 1fr;
+  .roadmap-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /* ----------------------------------------------- */
@@ -410,6 +410,7 @@ grid-template-columns: 1fr 1fr 1fr;
     padding-left: 16px;
     width: 85%;
     text-align: left;
+    padding-right: 50px;
   }
   .hero-bg {
     background-image: none;
@@ -432,13 +433,14 @@ grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
   }
   .logo {
-    height: 38px;
+    height: 31px;
   }
   .logo-last {
     height: 16px;
   }
   .presale {
-    width: 100%;
+    width: 100vw;
+    max-width: none;
   }
   .mobile-partners {
     display: block;
@@ -526,7 +528,11 @@ grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 35px;
   }
 }
-
+@media (max-width: 511px) {
+  .hero {
+    padding-right: 40px;
+  }
+}
 /* 480px for mobile screen */
 
 @media (max-width: 480px) {
@@ -537,11 +543,13 @@ grid-template-columns: 1fr 1fr 1fr;
   .hero {
     width: 100%;
     max-width: 1200px;
+    padding-right: 20px;
   }
   .logo {
     height: 26px;
   }
-  .btn1, .btn2{
+  .btn1,
+  .btn2 {
     padding: 1rem 1.4rem;
     font-size: 16px;
   }
@@ -578,10 +586,13 @@ grid-template-columns: 1fr 1fr 1fr;
   }
   .logo-last {
     height: 13px;
-}
-.btn1, .btn2{
-  padding: 10px 10px;
-  font-size: 13px;
-}
-
+  }
+  .btn1,
+  .btn2 {
+    padding: 10px 10px;
+    font-size: 13px;
+  }
+  .hero {
+    padding-right: 20px;
+  }
 }
