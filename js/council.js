@@ -7,12 +7,12 @@ console.log('heloo world');
 
 const btn = document.querySelector('.mobile-btn');
 console.log(btn);
-const nav = document.querySelector('.main-nav');
-console.log(nav);
+const mainNav = document.querySelector('.main-nav');
+console.log(mainNav);
 
 
 btn.addEventListener('click', function(){
-nav.classList.toggle('show');
+mainNav.classList.toggle('show');
 });
 
 
